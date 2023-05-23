@@ -14,7 +14,6 @@
 		096EC22F29D05B540000AF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096EC22E29D05B540000AF97 /* Assets.xcassets */; };
 		096EC23229D05B540000AF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096EC23029D05B540000AF97 /* LaunchScreen.storyboard */; };
 		096EC23B29D1EEED0000AF97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096EC23A29D1EEED0000AF97 /* Extensions.swift */; };
-		096EC23D29D1F90D0000AF97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 096EC23C29D1F90D0000AF97 /* GoogleService-Info.plist */; };
 		096EC24029D1FB210000AF97 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 096EC23F29D1FB210000AF97 /* FirebaseAnalytics */; };
 		096EC24229D1FB210000AF97 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 096EC24129D1FB210000AF97 /* FirebaseAuth */; };
 		096EC24429D1FB210000AF97 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 096EC24329D1FB210000AF97 /* FirebaseCrashlytics */; };
@@ -29,6 +28,7 @@
 		09928C6829EFA503003C6587 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 09928C6729EFA503003C6587 /* FirebaseMessaging */; };
 		09928C6A29F18C25003C6587 /* CommentInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09928C6929F18C25003C6587 /* CommentInputAccessoryView.swift */; };
 		09928C6C29F196E0003C6587 /* CommentInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09928C6B29F196E0003C6587 /* CommentInputTextView.swift */; };
+		099919AA2A1D72E000662402 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 099919A92A1D72E000662402 /* GoogleService-Info.plist */; };
 		099D354829E0B9AF00A85E31 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099D354729E0B9AF00A85E31 /* CameraController.swift */; };
 		09ACA55529D2326E00D81855 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ACA55429D2326E00D81855 /* MainTabBarController.swift */; };
 		09ACA55729D2334F00D81855 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ACA55629D2334F00D81855 /* UserProfileController.swift */; };
@@ -59,7 +59,6 @@
 		096EC23129D05B540000AF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		096EC23329D05B540000AF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		096EC23A29D1EEED0000AF97 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		096EC23C29D1F90D0000AF97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		09928C5929E1C737003C6587 /* PreviewPhotoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPhotoContainerView.swift; sourceTree = "<group>"; };
 		09928C5B29E8D882003C6587 /* CustomAnimationPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationPresentor.swift; sourceTree = "<group>"; };
 		09928C5D29E8DEE7003C6587 /* CustomAnimationDismisser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismisser.swift; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		09928C6529EF9CDB003C6587 /* InstagramUpdate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InstagramUpdate.entitlements; sourceTree = "<group>"; };
 		09928C6929F18C25003C6587 /* CommentInputAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputAccessoryView.swift; sourceTree = "<group>"; };
 		09928C6B29F196E0003C6587 /* CommentInputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputTextView.swift; sourceTree = "<group>"; };
+		099919A92A1D72E000662402 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		099D354729E0B9AF00A85E31 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		09ACA55429D2326E00D81855 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		09ACA55629D2334F00D81855 /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 				096EC22E29D05B540000AF97 /* Assets.xcassets */,
 				096EC23029D05B540000AF97 /* LaunchScreen.storyboard */,
 				096EC23329D05B540000AF97 /* Info.plist */,
-				096EC23C29D1F90D0000AF97 /* GoogleService-Info.plist */,
+				099919A92A1D72E000662402 /* GoogleService-Info.plist */,
 			);
 			path = InstagramUpdate;
 			sourceTree = "<group>";
@@ -307,7 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				096EC23229D05B540000AF97 /* LaunchScreen.storyboard in Resources */,
-				096EC23D29D1F90D0000AF97 /* GoogleService-Info.plist in Resources */,
+				099919AA2A1D72E000662402 /* GoogleService-Info.plist in Resources */,
 				096EC22F29D05B540000AF97 /* Assets.xcassets in Resources */,
 				096EC22D29D05B520000AF97 /* Main.storyboard in Resources */,
 			);
